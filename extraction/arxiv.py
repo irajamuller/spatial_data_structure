@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from keybert import KeyBERT
 
 
-def extrair_dados_arxiv_json(base_url, arquivo_saida='artigos_arxiv_quantum_computing.json'):
+def extrair_dados_arxiv_json(base_url, arquivo_saida='artigos_arxiv_spatial.json'):
     """
     Extrai dados de artigos do ArXiv paginando de 200 em 200 e salva em formato JSON.
 
